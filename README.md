@@ -80,6 +80,11 @@ MPE	+11.4%	  Slight over-prediction bias
 R²	0.915   	Model explains ~91% of variance ⭐
 
 ---
+## Backtest
+
+![Uploading image.png…]()
+
+
 ## Summary
 
 Model captures the pattern very well
