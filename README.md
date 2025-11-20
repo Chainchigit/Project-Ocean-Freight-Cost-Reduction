@@ -1,4 +1,4 @@
-# 🚢 Ocean Freight Cost Reduction – Machine Learning Project
+# 🚢 Project Ocean Freight Cost Reduction 
 
 This project focuses on leveraging **data analytics and machine learning (XGBoost)** to reduce ocean freight costs through accurate forecasting and insight generation.
 
