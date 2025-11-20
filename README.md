@@ -32,3 +32,14 @@ Project-Ocean-Freight-Cost-Reduction/
 │   └─ Performance analysis (MAE, RMSE, MAPE, R², by Port, etc.)
 │
 └── (future) README.md     # Project documentation
+
+🧱 Data & Features
+
+Core features used in the current version of the model include:
+
+  - Port – origin/destination port grouping
+  - Year, Month – time dimension for seasonality
+  - Freight Cost Max – historical benchmark / ceiling cost
+  - Other engineered features from the data pipeline (e.g. aggregated statistics)
+
+The project is designed so that additional external variables (e.g. market indices, macro indicators) can be added later to improve accuracy.
