@@ -68,11 +68,16 @@ Evaluation: Train-test split with performance metrics reported below.
 ## 📈 Model Performance (Test Set)
 
 Metric	Value	Interpretation
-MAE	~336	Average error in USD per container
-RMSE	~692	Indicates some large-error cases
+
+MAE	~336	    Average error in USD per container
+
+RMSE	~692	  Indicates some large-error cases
+
 MAPE	~25.6%	Reasonable for volatile cost data
-MPE	+11.4%	Slight over-prediction bias
-R²	0.915	Model explains ~91% of variance ⭐
+
+MPE	+11.4%	  Slight over-prediction bias
+
+R²	0.915   	Model explains ~91% of variance ⭐
 
 ---
 ## Summary
