@@ -33,7 +33,7 @@ Project-Ocean-Freight-Cost-Reduction/
 │
 └── (future) README.md     # Project documentation
 
-🧱 Data & Features
+## 🧱 Data & Features
 
 Core features used in the current version of the model include:
 
@@ -47,7 +47,7 @@ Other engineered features from the data pipeline (e.g. aggregated statistics)
 
 The project is designed so that additional external variables (e.g. market indices, macro indicators) can be added later to improve accuracy.
 
-🤖 Model
+## 🤖 Model
 
 The main model is XGBoost Regressor (XGBRegressor) with parameters such as:
 
@@ -65,7 +65,7 @@ objective = "reg:squarederror"
 
 The model is trained on the prepared dataset from the Data pipe line folder and evaluated on a held-out test set.
 
-📈 Current Performance (Test Set)
+## 📈 Current Performance (Test Set)
 
 Key metrics from the latest experiment:
 
@@ -87,7 +87,7 @@ Average relative error is around 25%, which is reasonable for a highly volatile 
 
 Error analysis by Port / Month is used to identify lanes where the model performs poorly and may require separate treatment or additional features.
 
-🚀 How to Run
+## 🚀 How to Run
 
 You can run this project either in Google Colab or locally.
 
@@ -137,7 +137,7 @@ Generate predictions and performance summary.
 
 (Optional) Export result tables to Excel for business review.
 
-📌 Roadmap / Next Steps
+## 📌 Roadmap / Next Steps
 
 Planned enhancements:
 
@@ -149,7 +149,7 @@ Implement simple API or dashboard for “what-if” freight scenarios.
 
 Add requirements.txt and more automated scripts (no-click pipeline).
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 
-Chainarong Chiewngan (Chainchigit)
+Chainarong C. (Chainchigit)
 Data / DX / Analytics practitioner with interest in logistics, cost optimization, and forecasting.
