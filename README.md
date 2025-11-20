@@ -1,45 +1,31 @@
-# Project – Ocean Freight Cost Reduction
+# 🚢 Ocean Freight Cost Reduction – Machine Learning Project
 
-This repository contains an end-to-end analytics and machine learning project that focuses on **reducing ocean freight cost** by understanding historical patterns and forecasting future freight rates.
+This project focuses on leveraging **data analytics and machine learning (XGBoost)** to reduce ocean freight costs through accurate forecasting and insight generation.
 
-The project is structured around a simple idea:
-
-> If we can forecast container freight cost with reasonable accuracy and understand the key drivers,  
-> we can negotiate better contracts, choose better routes, and plan shipments more intelligently.
+> Better forecasting → Better contract negotiation → Better cost efficiency
 
 ---
 
-## 🎯 Objectives
+## 🎯 Project Goals
 
-- Analyze historical ocean freight data (by **port, year, month** and cost).
-- Build a **regression model** to predict future freight cost.
-- Evaluate model performance with business-friendly metrics (MAPE, MAE, RMSE, R²).
-- Provide a data pipeline that can be re-used / extended for future experiments.
+- Analyze freight cost behavior across **Ports / Year / Month**
+- Build a predictive model to forecast freight rates
+- Evaluate performance with real business metrics
+- Provide a scalable data pipeline for future enhancements
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Overview
 
 ```text
 Project-Ocean-Freight-Cost-Reduction/
 │
-├── Data pipe line/        # Scripts / notebooks for data cleaning & feature engineering
-│   ├─ (load, clean, transform raw data)
-│   └─ (create model-ready dataset for training)
+├── Data pipe line/   
+│   ├─ Data cleaning
+│   └─ Feature engineering
 │
-├── Model Training/        # Scripts / notebooks for model training & evaluation
+├── Model Training/
 │   ├─ XGBoost training
-│   └─ Performance analysis (MAE, RMSE, MAPE, R², by Port, etc.)
+│   └─ Performance evaluation
 │
-└── (future) README.md     # Project documentation
-
-🧱 Data & Features
-
-Core features used in the current version of the model include:
-
-  - Port – origin/destination port grouping
-  - Year, Month – time dimension for seasonality
-  - Freight Cost Max – historical benchmark / ceiling cost
-  - Other engineered features from the data pipeline (e.g. aggregated statistics)
-
-The project is designed so that additional external variables (e.g. market indices, macro indicators) can be added later to improve accuracy.
+└── README.md
